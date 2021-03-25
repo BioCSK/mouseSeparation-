@@ -1,0 +1,76 @@
+.topNavigator {
+  width: 100%;
+  height: 60px;
+  background-color: #ccc;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.topNavigator #mainTxt, .topNavigator .topNaviContent {
+  position: relative;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.topNavigator .topNaviContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topNavigator .topNaviContent li {
+  margin-right: 50px;
+}
+
+.topNavigator .topNaviContent li a {
+  color: black;
+}
+
+.contentWrapper {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+  position: relative;
+}
+
+.contentWrapper #mainForm {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contentWrapper #mainForm #descriptionTxt {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  background-color: transparent;
+}
+
+.contentWrapper #arrow {
+  position: relative;
+}
+
+.contentWrapper #arrow i {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.contentWrapper #input {
+  margin-right: 200px;
+}
+/*# sourceMappingURL=index.css.map */
